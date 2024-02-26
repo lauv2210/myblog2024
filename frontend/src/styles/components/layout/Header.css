@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Caveat&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+
+header {
+  background-color: #bc8da7;
+  text-align: center;
+}
+
+header h1 {
+  font-family: "Bungee Shade", sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0.3em;
+}
+
+header h2 {
+  font-family: "Caveat", cursive;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0.3em;
+}
+
+header i {
+  font-size: 1.5em;
+}
