@@ -1,9 +1,9 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Header from "./components/layout/Header.js";
-import Nav from "./components/layout/Nav.js";
-import Footer from "./components/layout/Footer.js";
+import Header from "./components/layout/Header";
+import Nav from "./components/layout/Nav";
+import Footer from "./components/layout/Footer";
 
 import HomePage from "./components/pages/HomePage.js";
 import NosotrasPage from "./components/pages/NosotrasPage.js";

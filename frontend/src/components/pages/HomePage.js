@@ -1,4 +1,3 @@
-import React from "react";
 import "../../styles/components/pages/HomePage.css";
 
 import { useState } from "react";
@@ -13,7 +12,7 @@ const HomePage = (props) => {
 
   return (
     <div className="centrar1">
-      <main className="activo">
+      <main className="activo mainHome">
         <Carousel activeIndex={index} onSelect={handleSelect}>
           <Carousel.Item>
             <img

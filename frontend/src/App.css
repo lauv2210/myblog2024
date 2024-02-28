@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 } */
+
+.centrar1 {
+  padding-left: 4em;
+  padding-right: 4em;
+  background-color: coral;
+}
+
+.activo {
+  background-color: pink;
+}
+
+main {
+  padding: 4em 6em 4em 6em;
+}
+
+main h2 {
+  font-family: "Caveat", cursive;
+}
+
+main p {
+  line-height: 3em;
+}
+
+.centrar2 {
+  text-align: center;
+}

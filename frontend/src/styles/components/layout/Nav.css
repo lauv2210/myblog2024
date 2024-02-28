@@ -1,9 +1,3 @@
-.centrar1 {
-  padding-left: 4em;
-  padding-right: 4em;
-  background-color: coral;
-}
-
 nav {
   display: flex;
   justify-content: space-evenly;
