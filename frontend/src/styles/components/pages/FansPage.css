@@ -1,0 +1,39 @@
+#contenedor-ideas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+}
+
+.idea {
+  width: 22%;
+  padding: 1em;
+  background-color: #dc9596;
+  text-align: center;
+}
+
+.imgs-ideas {
+  overflow-x: scroll;
+  white-space: nowrap;
+  margin-bottom: 1em;
+}
+
+.idea img {
+  height: 250px;
+  width: max-content;
+}
+
+.idea h3 {
+  font-size: 1em;
+  display: inline;
+  margin-left: 0.5em;
+}
+
+.imgs-ideas::-webkit-scrollbar {
+  background-color: lightcoral;
+}
+
+.imgs-ideas::-webkit-scrollbar-thumb {
+  background-color: purple;
+  border-radius: 50px 50px 50px 50px;
+}

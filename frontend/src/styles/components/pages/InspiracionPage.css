@@ -1,0 +1,17 @@
+#grilla {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+}
+
+#grilla img {
+  width: 20%;
+  height: max-content;
+}
+
+#grilla img:hover {
+  cursor: pointer;
+  scale: 1.5;
+}
