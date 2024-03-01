@@ -1,3 +1,7 @@
+.mainInspiracion{
+  border-radius: 50px 50px 0px 0px;
+}
+
 #grilla {
   display: flex;
   flex-wrap: wrap;

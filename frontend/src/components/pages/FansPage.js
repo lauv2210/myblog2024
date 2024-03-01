@@ -3,7 +3,7 @@ import "../../styles/components/pages/FansPage.css";
 const FansPage = (props) => {
   return (
     <div className="centrar1">
-      <main className="activo">
+      <main className="activo mainFans">
         <h2 className="centrar2">Tus ideas</h2>
         <p className="centrar2">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex quidem

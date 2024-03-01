@@ -3,7 +3,7 @@ import "../../styles/components/pages/InspiracionPage.css";
 const InspiracionPage = (props) => {
   return (
     <div className="centrar1">
-    <main className="activo">
+    <main className="activo mainInspiracion">
       <h2 className="centrar2">Inspiración del día</h2>
       <p className="centrar2">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
