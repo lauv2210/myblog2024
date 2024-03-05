@@ -10,7 +10,6 @@
 
 #perfiles {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   gap: 1em;
   background-color: transparent;
@@ -97,4 +96,53 @@
 
 .back-profile {
   transform: rotateY(180deg);
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1115px) {
+  .contenedor-perfil h3 {
+    font-size: 0.89em;
+  }
+  .contenedor-perfil p {
+    font-size: 0.65em;
+  }
+  #imgNosotras {
+    width: 80%;
+  }
+  .front-profile img {
+    height: 60%;
+    width: fit-content;
+  }
+  .front-profile {
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #perfiles {
+    flex-wrap: wrap;
+    height: 500px;
+  }
+  .contenedor-perfil {
+    width: 40%;
+    height: 40%;
+  }
+  .front-profile img {
+    height: 80%;
+    width: fit-content;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  #perfiles {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    height: 1000px;
+    align-items: center;
+  }
+  .contenedor-perfil {
+    height: 33%;
+    width: 65%;
+  }
 }

@@ -70,3 +70,42 @@ footer i:hover {
 small {
   margin-top: 1em;
 }
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 959px) {
+  footer {
+    flex-wrap: wrap;
+    height: auto;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    gap: 1em;
+    justify-content: center;
+  }
+  footer div {
+    width: 33%;
+    text-align: center;
+  }
+  small {
+    padding-top: 1em;
+    position: fixed;
+    bottom: 1em;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  footer {
+    text-align: center;
+    height: auto;
+    flex-direction: column;
+    padding: 2em 1em 5em 1em;
+  }
+  footer div {
+    width: 100%;
+  }
+  small {
+    bottom: 2em;
+  }
+}

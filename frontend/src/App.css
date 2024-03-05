@@ -62,3 +62,33 @@ main p {
 .centrar2 {
   text-align: center;
 }
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 915px) {
+  main {
+    padding: 2em 2em 2em 2em;
+  }
+}
+
+@media only screen and (max-width: 889px) {
+  .centrar2 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 704px) {
+  .centrar1 {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .centrar1 {
+    padding: 0;
+  }
+  main p {
+    font-size: 0.8em;
+  }
+}

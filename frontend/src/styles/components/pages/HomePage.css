@@ -97,3 +97,40 @@
   cursor: pointer;
   filter: brightness(0.5);
 } */
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1115px) {
+  /* En App.css line-height: 3em */
+  .item2 p {
+    font-size: 1.5em;
+    line-height: 1em;
+    text-align: center;
+  }
+  #cartelera img {
+    width: 25%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  #cartelera img {
+    width: 50%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mainHome {
+    border-radius: 50px 50px 0px 0px;
+  }
+  .item2 p {
+    font-size: 1.5em;
+    top: 30%;
+    text-align: center;
+  }
+  #intro img {
+    width: 100%;
+    float: none;
+  }
+}

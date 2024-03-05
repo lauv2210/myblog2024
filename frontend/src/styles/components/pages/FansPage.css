@@ -1,4 +1,4 @@
-.mainFans{
+.mainFans {
   border-radius: 50px 50px 0px 0px;
 }
 
@@ -40,4 +40,27 @@
 .imgs-ideas::-webkit-scrollbar-thumb {
   background-color: purple;
   border-radius: 50px 50px 50px 50px;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1115px) {
+  .idea {
+    width: 33%;
+  }
+  .idea h3 {
+    font-size: 0.89em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mainFans {
+    border-radius: 50px 50px 50px 50px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .idea {
+    width: 100%;
+  }
 }

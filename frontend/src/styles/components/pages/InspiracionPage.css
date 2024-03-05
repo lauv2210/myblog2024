@@ -1,4 +1,4 @@
-.mainInspiracion{
+.mainInspiracion {
   border-radius: 50px 50px 0px 0px;
 }
 
@@ -18,4 +18,18 @@
 #grilla img:hover {
   cursor: pointer;
   scale: 1.5;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 889px) {
+  #grilla img {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #grilla img {
+    width: 40%;
+  }
 }
